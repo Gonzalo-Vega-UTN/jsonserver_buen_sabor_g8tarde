@@ -1,0 +1,311 @@
+{
+  "manufacturados": [
+    {
+      "id": "1",
+      "alta": true,
+      "denominacion": "Pizza Napolitina",
+      "precioVenta": 5000,
+      "imagenes": [
+        {
+          "id": "1",
+          "alta": true,
+          "url": "url"
+        }
+      ],
+      "unidadMedida": {
+        "id": "1",
+        "alta": true,
+        "denominacion": "Porciones"
+      },
+      "categoria": {
+        "id": "1",
+        "alta": true,
+        "denominacion": "Pizzas"
+      },
+      "tiempoEstimadoMinutos": 50,
+      "articuloManufacturadoDetalles": [
+        {
+          "id": "1",
+          "alta": true,
+          "denominacion": "Porciones",
+          "cantidad": 200,
+          "articuloInsumo": {
+            "id": "1",
+            "alta": true,
+            "denominacion": "Queso",
+            "precioVenta": 300,
+            "imagenes": [
+              {
+                "id": "2",
+                "alta": true,
+                "url": "url"
+              }
+            ],
+            "unidadMedida": {
+              "id": "2",
+              "alta": true,
+              "denominacion": "Gramos"
+            },
+            "categoria": {
+              "id": "2",
+              "alta": true,
+              "denominacion": "Lacteos"
+            },
+            "precioCompra": 499,
+            "stockActual": 50,
+            "stockMaximo": 100,
+            "esParaElaborar": true
+          }
+        }
+      ],
+      "descripcion": "Descripcion de la pizza napotilana",
+      "preparacion": "Lista de pasos de la preparacion"
+    },
+    {
+      "id": "2",
+      "alta": true,
+      "denominacion": "Pizza Margarita",
+      "precioVenta": 6500,
+      "imagenes": [
+        {
+          "id": "1",
+          "alta": true,
+          "url": "url"
+        }
+      ],
+      "unidadMedida": {
+        "id": "1",
+        "alta": true,
+        "denominacion": "Porciones"
+      },
+      "categoria": {
+        "id": "1",
+        "alta": true,
+        "denominacion": "Pizzas"
+      },
+      "tiempoEstimadoMinutos": 60,
+      "articuloManufacturadoDetalles": [
+        {
+          "id": "2",
+          "alta": true,
+          "cantidad": 200,
+          "articuloInsumo": {
+            "id": "1",
+            "alta": true,
+            "denominacion": "Queso",
+            "precioVenta": 300,
+            "imagenes": [
+              {
+                "id": "2",
+                "alta": true,
+                "url": "url"
+              }
+            ],
+            "unidadMedida": {
+              "id": "2",
+              "alta": true,
+              "denominacion": "Gramos"
+            },
+            "categoria": {
+              "id": "2",
+              "alta": true,
+              "denominacion": "Lacteos"
+            },
+            "precioCompra": 499,
+            "stockActual": 50,
+            "stockMaximo": 100,
+            "esParaElaborar": true
+          }
+        },
+        {
+          "id": "3",
+          "alta": true,
+          "cantidad": 30,
+          "articuloInsumo": {
+            "id": "4",
+            "alta": true,
+            "denominacion": "Rucula",
+            "precioVenta": 100,
+            "imagenes": [
+              {
+                "id": "2",
+                "alta": true,
+                "url": "url"
+              }
+            ],
+            "unidadMedida": {
+              "id": "2",
+              "alta": true,
+              "denominacion": "Gramos"
+            },
+            "categoria": {
+              "id": "5",
+              "alta": true,
+              "denominacion": "Hierbas"
+            },
+            "precioCompra": 200,
+            "stockActual": 20,
+            "stockMaximo": 150,
+            "esParaElaborar": true
+          }
+        }
+      ],
+      "descripcion": "Descripcion de la pizza napotilana",
+      "preparacion": "Lista de pasos de la preparacion"
+    }
+  ],
+  "unidades-medida": [
+    {
+      "id": "1",
+      "alta": true,
+      "denominacion": "Porciones"
+    },
+    {
+      "id": "2",
+      "alta": true,
+      "denominacion": "Gramos"
+    },
+    {
+      "id": "3",
+      "alta": true,
+      "denominacion": "Litros"
+    }
+  ],
+  "categorias": [
+    {
+      "id": "1",
+      "alta": true,
+      "denominacion": "Pizzas"
+    },
+    {
+      "id": "2",
+      "alta": true,
+      "denominacion": "Lacteos"
+    },
+    {
+      "id": "3",
+      "alta": true,
+      "denominacion": "Gaseosas"
+    },
+    {
+      "id": "4",
+      "alta": true,
+      "denominacion": "Harinas"
+    },
+    {
+      "id": "5",
+      "alta": true,
+      "denominacion": "Hierbas"
+    }
+  ],
+  "insumos": [
+    {
+      "id": "1",
+      "alta": true,
+      "denominacion": "Queso",
+      "precioVenta": 300,
+      "imagenes": [
+        {
+          "id": "2",
+          "alta": true,
+          "url": "url"
+        }
+      ],
+      "unidadMedida": {
+        "id": "2",
+        "alta": true,
+        "denominacion": "Gramos"
+      },
+      "categoria": {
+        "id": "2",
+        "alta": true,
+        "denominacion": "Lacteos"
+      },
+      "precioCompra": 499,
+      "stockActual": 50,
+      "stockMaximo": 100,
+      "esParaElaborar": true
+    },
+    {
+      "id": "2",
+      "alta": true,
+      "denominacion": "Coca-Cola",
+      "precioVenta": 300,
+      "imagenes": [
+        {
+          "id": "3",
+          "alta": true,
+          "url": "url"
+        }
+      ],
+      "unidadMedida": {
+        "id": "3",
+        "alta": true,
+        "denominacion": "Litros"
+      },
+      "categoria": {
+        "id": "3",
+        "alta": true,
+        "denominacion": "Gaseosas"
+      },
+      "precioCompra": 499,
+      "stockActual": 50,
+      "stockMaximo": 100,
+      "esParaElaborar": false
+    },
+    {
+      "id": "3",
+      "alta": true,
+      "denominacion": "Harina Leudante",
+      "precioVenta": 150,
+      "imagenes": [
+        {
+          "id": "4",
+          "alta": true,
+          "url": "url"
+        }
+      ],
+      "unidadMedida": {
+        "id": "2",
+        "alta": true,
+        "denominacion": "Gramos"
+      },
+      "categoria": {
+        "id": "4",
+        "alta": true,
+        "denominacion": "Harinas"
+      },
+      "precioCompra": 300,
+      "stockActual": 20,
+      "stockMaximo": 100,
+      "esParaElaborar": true
+    },
+    {
+      "id": "4",
+      "alta": true,
+      "denominacion": "Rucula",
+      "precioVenta": 100,
+      "imagenes": [
+        {
+          "id": "2",
+          "alta": true,
+          "url": "url"
+        }
+      ],
+      "unidadMedida": {
+        "id": "2",
+        "alta": true,
+        "denominacion": "Gramos"
+      },
+      "categoria": {
+        "id": "5",
+        "alta": true,
+        "denominacion": "Hierbas"
+      },
+      "precioCompra": 200,
+      "stockActual": 20,
+      "stockMaximo": 150,
+      "esParaElaborar": true
+    }
+  ]
+}
