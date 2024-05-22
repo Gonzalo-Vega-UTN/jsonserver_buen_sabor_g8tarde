@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "copy-db": "node copy-db.js",
-    "json-server": "json-server --watch db.json --port 3000",
-    "start": "npm-run-all copy-db json-server"
+    "json-server":"json-server --config json-server.json --watch temp-db.json --port 3000",
+    "serve": "npm-run-all copy-db json-server"
   },
   "author": "Gonzalo Vega - Franco Albornoz - Ignacio Ramet",
   "license": "ISC",
